@@ -10,6 +10,8 @@ namespace ProjetoPOO4
 {
     public partial class FrmPar : Form
     {
+        Operations op = new Operations();
+
         public FrmPar()
         {
             InitializeComponent();
@@ -19,19 +21,9 @@ namespace ProjetoPOO4
         {
             try
             {
-                textBResult.Clear();
                 verticalCentered();
                 int num = int.Parse(textBNumber.Text);
-                if (num % 2 == 0)
-                {
-                    textBResult.Text += "O número é par.";
-                    textBResult.ForeColor = Color.Green;
-                }
-                else
-                {
-                    textBResult.Text += "O número é ímpar.";
-                    textBResult.ForeColor = Color.Green;
-                }
+                textBResult.Text += op.oddEven(num);
             }
             catch (Exception)
             {
@@ -53,18 +45,15 @@ namespace ProjetoPOO4
 
         private void verticalCentered()
         {
+            textBResult.Clear();
+            textBResult.ForeColor = Color.Green;
             textBResult.TextAlign = HorizontalAlignment.Center;
             int a = textBResult.Size.Height;
             float c = textBResult.Font.Height;
-            for (int i = 0; i < (int)(a / c) / 3; i++)
+            for (int i = 0; i < (int)(a / c) / 3.5; i++)
             {
                 textBResult.Text += "\r\n";
             }
-        }
-
-        private void label1_Paint(object sender, PaintEventArgs e)
-        {
-            ControlPaint.DrawBorder(e.Graphics, label1.DisplayRectangle, Color.DarkGray, ButtonBorderStyle.Solid);
         }
 
         private void textBNumber_KeyPress(object sender, KeyPressEventArgs e)
@@ -73,6 +62,11 @@ namespace ProjetoPOO4
             {
                 e.Handled = true;
             }
+        }
+
+        private void label1_Paint(object sender, PaintEventArgs e)
+        {
+            ControlPaint.DrawBorder(e.Graphics, label1.DisplayRectangle, Color.DarkGray, ButtonBorderStyle.Solid);
         }
     }
 }
