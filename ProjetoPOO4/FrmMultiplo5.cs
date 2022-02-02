@@ -8,11 +8,11 @@ using System.Windows.Forms;
 
 namespace ProjetoPOO4
 {
-    public partial class FrmPar : Form
+    public partial class FrmMultiplo5 : Form
     {
         Operations op = new Operations();
 
-        public FrmPar()
+        public FrmMultiplo5()
         {
             InitializeComponent();
         }
@@ -23,7 +23,7 @@ namespace ProjetoPOO4
             {
                 verticalCentered();
                 int num = int.Parse(textBNumber.Text);
-                textBResult.Text += op.oddEven(num);
+                textBResult.Text += op.multipleFive(num);
             }
             catch (Exception)
             {
@@ -47,7 +47,7 @@ namespace ProjetoPOO4
         private void verticalCentered()
         {
             textBResult.Clear();
-            textBResult.ForeColor = Color.Green;
+            textBResult.ForeColor = Color.DodgerBlue;
             textBResult.TextAlign = HorizontalAlignment.Center;
             int a = textBResult.Size.Height;
             float c = textBResult.Font.Height;

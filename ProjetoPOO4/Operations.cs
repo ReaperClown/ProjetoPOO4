@@ -17,5 +17,22 @@ namespace ProjetoPOO4
                 return "O número é ímpar.";
             }
         }
+
+        public string multipleFive(int num)
+        {
+            if (num % 5 == 0)
+            {
+                return "O número é múltiplo de 5.";
+            }
+            else
+            {
+                return "O número não é múltiplo de 5.";
+            }
+        }
+
+        public string nameForename(string name, string lastName)
+        {
+            return $"{name} {lastName}";
+        }
     }
 }

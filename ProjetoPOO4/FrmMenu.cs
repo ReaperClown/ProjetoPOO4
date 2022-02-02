@@ -62,12 +62,14 @@ namespace ProjetoPOO4
 
         private void btnMulti_Click(object sender, EventArgs e)
         {
-
+            FrmMultiplo5 multiplo5 = new FrmMultiplo5();
+            multiplo5.ShowDialog();
         }
 
         private void btnNames_Click(object sender, EventArgs e)
         {
-
+            FrmNomes nomes = new FrmNomes();
+            nomes.ShowDialog();
         }
 
         private void btnClose_Click(object sender, EventArgs e)

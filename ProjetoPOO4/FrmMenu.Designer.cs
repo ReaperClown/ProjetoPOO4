@@ -1,5 +1,9 @@
 ﻿namespace ProjetoPOO4
 {
+
+    // - Desenvolvido por Willian Mesquita
+
+
     partial class FrmMenu
     {
         /// <summary>
@@ -53,7 +57,7 @@
             this.btnPar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(204)))), ((int)(((byte)(219)))));
             this.btnPar.FlatAppearance.BorderSize = 0;
             this.btnPar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnPar.Font = new System.Drawing.Font("Poppins", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnPar.Font = new System.Drawing.Font("Poppins Black", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnPar.ForeColor = System.Drawing.Color.White;
             this.btnPar.Location = new System.Drawing.Point(67, 81);
             this.btnPar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -69,7 +73,7 @@
             this.btnMulti.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(204)))), ((int)(((byte)(219)))));
             this.btnMulti.FlatAppearance.BorderSize = 0;
             this.btnMulti.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnMulti.Font = new System.Drawing.Font("Poppins", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnMulti.Font = new System.Drawing.Font("Poppins Black", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnMulti.ForeColor = System.Drawing.Color.White;
             this.btnMulti.Location = new System.Drawing.Point(67, 183);
             this.btnMulti.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -85,7 +89,7 @@
             this.btnNames.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(204)))), ((int)(((byte)(219)))));
             this.btnNames.FlatAppearance.BorderSize = 0;
             this.btnNames.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnNames.Font = new System.Drawing.Font("Poppins", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnNames.Font = new System.Drawing.Font("Poppins Black", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnNames.ForeColor = System.Drawing.Color.White;
             this.btnNames.Location = new System.Drawing.Point(67, 281);
             this.btnNames.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -98,10 +102,11 @@
             // 
             // btnClose
             // 
-            this.btnClose.BackColor = System.Drawing.Color.Gainsboro;
+            this.btnClose.BackColor = System.Drawing.Color.DimGray;
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnClose.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnClose.Font = new System.Drawing.Font("Poppins", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Location = new System.Drawing.Point(108, 400);
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnClose.Name = "btnClose";
