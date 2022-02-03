@@ -28,7 +28,7 @@ namespace ProjetoPOO4
             catch (Exception)
             {
                 MessageBox.Show("Digite um valor numérico para realizar o cálculo.", "Valor inválido");
-                textBNumber.Focus();
+                cleanFields();
             }
         }
 

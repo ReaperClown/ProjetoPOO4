@@ -10,11 +10,11 @@ namespace ProjetoPOO4
         {
             if (num % 2 == 0)
             {
-                return "O número é par.";
+                return $"O número {num} é par.";
             }
             else
             {
-                return "O número é ímpar.";
+                return $"O número {num} é ímpar.";
             }
         }
 
@@ -22,11 +22,11 @@ namespace ProjetoPOO4
         {
             if (num % 5 == 0)
             {
-                return "O número é múltiplo de 5.";
+                return $"O número {num} é múltiplo de 5.";
             }
             else
             {
-                return "O número não é múltiplo de 5.";
+                return $"O número {num} não é múltiplo de 5.";
             }
         }
 
