@@ -30,7 +30,7 @@ namespace ProjetoPOO4
             }
         }
 
-        public string nameForename(string name, string lastName)
+        public string nameLastName(string name, string lastName)
         {
             return $"{name} {lastName}";
         }

@@ -39,6 +39,7 @@
             // textBResult
             // 
             this.textBResult.BackColor = System.Drawing.Color.LightGray;
+            this.textBResult.Font = new System.Drawing.Font("Poppins", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBResult.Location = new System.Drawing.Point(12, 279);
             this.textBResult.Multiline = true;
             this.textBResult.Name = "textBResult";

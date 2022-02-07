@@ -31,7 +31,7 @@ namespace ProjetoPOO4
                 {
                     name = textBName.Text;
                     lastName = textBLastName.Text;
-                    fullName = op.nameForename(name, lastName);
+                    fullName = op.nameLastName(name, lastName);
                     MessageBox.Show(fullName, "Bem vindo(a)!");
                 }
             }
