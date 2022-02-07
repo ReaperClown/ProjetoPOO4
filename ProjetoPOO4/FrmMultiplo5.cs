@@ -22,6 +22,8 @@ namespace ProjetoPOO4
             try
             {
                 verticalCentered();
+                textBNumber.Focus();
+                textBNumber.SelectAll();
                 int num = int.Parse(textBNumber.Text);
                 textBResult.Text += op.multipleFive(num);
             }
