@@ -99,5 +99,35 @@ namespace ProjetoPOO4
         {
             ControlPaint.DrawBorder(e.Graphics, label1.DisplayRectangle, Color.DarkGray, ButtonBorderStyle.Solid);
         }
+
+        private void btnPar_MouseEnter(object sender, EventArgs e)
+        {
+            btnPar.ForeColor = Color.Crimson;
+        }
+
+        private void btnPar_MouseLeave(object sender, EventArgs e)
+        {
+            btnPar.ForeColor = Color.DodgerBlue;
+        }
+
+        private void btnMulti_MouseEnter(object sender, EventArgs e)
+        {
+            btnMulti.ForeColor = Color.Crimson;
+        }
+
+        private void btnMulti_MouseLeave(object sender, EventArgs e)
+        {
+            btnMulti.ForeColor = Color.DodgerBlue;
+        }
+
+        private void btnNames_MouseEnter(object sender, EventArgs e)
+        {
+            btnNames.ForeColor = Color.Crimson;
+        }
+
+        private void btnNames_MouseLeave(object sender, EventArgs e)
+        {
+            btnNames.ForeColor = Color.DodgerBlue;
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace ProjetoPOO4
     public partial class FrmNomes : Form
     {
 
-        string name, lastName, fullName;
+        string firstName, lastName, fullName;
         Operations op = new Operations();
 
         public FrmNomes()
@@ -29,9 +29,9 @@ namespace ProjetoPOO4
                 }
                 else
                 {
-                    name = textBName.Text;
+                    firstName = textBName.Text;
                     lastName = textBLastName.Text;
-                    fullName = op.nameLastName(name, lastName);
+                    fullName = op.nameLastName(firstName, lastName);
                     MessageBox.Show(fullName, "Bem vindo(a)!");
                 }
             }

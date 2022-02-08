@@ -42,7 +42,7 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Poppins ExtraBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(-1, -1);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(0, 9, 0, 9);
@@ -58,7 +58,7 @@
             this.btnPar.FlatAppearance.BorderSize = 0;
             this.btnPar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPar.Font = new System.Drawing.Font("Poppins Black", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnPar.ForeColor = System.Drawing.Color.White;
+            this.btnPar.ForeColor = System.Drawing.Color.DodgerBlue;
             this.btnPar.Location = new System.Drawing.Point(67, 81);
             this.btnPar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnPar.Name = "btnPar";
@@ -67,6 +67,8 @@
             this.btnPar.Text = "Par ou Ímpar?";
             this.btnPar.UseVisualStyleBackColor = false;
             this.btnPar.Click += new System.EventHandler(this.btnPar_Click);
+            this.btnPar.MouseEnter += new System.EventHandler(this.btnPar_MouseEnter);
+            this.btnPar.MouseLeave += new System.EventHandler(this.btnPar_MouseLeave);
             // 
             // btnMulti
             // 
@@ -74,7 +76,7 @@
             this.btnMulti.FlatAppearance.BorderSize = 0;
             this.btnMulti.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnMulti.Font = new System.Drawing.Font("Poppins Black", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnMulti.ForeColor = System.Drawing.Color.White;
+            this.btnMulti.ForeColor = System.Drawing.Color.DodgerBlue;
             this.btnMulti.Location = new System.Drawing.Point(67, 183);
             this.btnMulti.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnMulti.Name = "btnMulti";
@@ -83,6 +85,8 @@
             this.btnMulti.Text = "É múltiplo de 5?";
             this.btnMulti.UseVisualStyleBackColor = false;
             this.btnMulti.Click += new System.EventHandler(this.btnMulti_Click);
+            this.btnMulti.MouseEnter += new System.EventHandler(this.btnMulti_MouseEnter);
+            this.btnMulti.MouseLeave += new System.EventHandler(this.btnMulti_MouseLeave);
             // 
             // btnNames
             // 
@@ -90,7 +94,7 @@
             this.btnNames.FlatAppearance.BorderSize = 0;
             this.btnNames.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnNames.Font = new System.Drawing.Font("Poppins Black", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnNames.ForeColor = System.Drawing.Color.White;
+            this.btnNames.ForeColor = System.Drawing.Color.DodgerBlue;
             this.btnNames.Location = new System.Drawing.Point(67, 281);
             this.btnNames.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnNames.Name = "btnNames";
@@ -99,6 +103,8 @@
             this.btnNames.Text = "Exibir nome";
             this.btnNames.UseVisualStyleBackColor = false;
             this.btnNames.Click += new System.EventHandler(this.btnNames_Click);
+            this.btnNames.MouseEnter += new System.EventHandler(this.btnNames_MouseEnter);
+            this.btnNames.MouseLeave += new System.EventHandler(this.btnNames_MouseLeave);
             // 
             // btnClose
             // 
