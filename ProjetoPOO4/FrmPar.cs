@@ -29,7 +29,14 @@ namespace ProjetoPOO4
             }
             catch (Exception)
             {
-                MessageBox.Show("Digite um valor numérico para realizar o cálculo.", "Valor inválido");
+                if (textBNumber.Text == "")
+                {
+                    MessageBox.Show("Preencha o campo de número para realizar o cálculo.", "Campo em branco");
+                }
+                else
+                {
+                    MessageBox.Show("Digite um valor numérico para realizar o cálculo.", "Valor inválido");
+                }
                 cleanFields();
             }
         }
